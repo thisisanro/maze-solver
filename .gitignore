@@ -1,0 +1,18 @@
+# VSCode specific
+.vscode/             # VSCode workspace settings and extensions
+
+# Python specific
+__pycache__/         # Compiled Python files
+*.pyc                # Compiled Python files
+*.pyo                # Optimized Python files
+*.pyd                # Python dynamic libraries
+
+# Virtual environments
+venv/                # Virtual environment folder
+.env/                # Another common virtual environment directory
+
+# Logs and temporary files
+*.log                # Log files
+*.tmp                # Temporary files
+*.bak                # Backup files
+*.swp                # Swap files (from Vim or editors)
