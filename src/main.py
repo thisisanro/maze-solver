@@ -3,11 +3,11 @@ from maze import Maze
 
 
 def main():
-    num_rows = 10
-    num_cols = 14
+    num_rows = 23
+    num_cols = 23
     indent = 50
-    screen_x = 1280
-    screen_y = 720
+    screen_x = 1000
+    screen_y = 1000
     cell_size_x = (screen_x - 2 * indent) / num_cols
     cell_size_y = (screen_y - 2 * indent) / num_rows
     win = Window(screen_x, screen_y)
